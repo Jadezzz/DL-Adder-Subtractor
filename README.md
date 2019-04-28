@@ -2,9 +2,9 @@
 
 ## Notes for TAs
 
-For Coding part, please refer to Demo.ipynb in this repo
+For Coding part, please refer to [Demo.ipynb](Demo.ipynb) in this repo or [this nbviewer link](https://nbviewer.jupyter.org/github/Jadezzz/DL-Adder-Subtractor/blob/master/Demo.ipynb)
 
-For Analyze part, please refer to Report.md in this repo
+For Analyze part, please refer to [Report.md](Report.md) in this repo
 
 
 
