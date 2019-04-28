@@ -41,7 +41,7 @@ Decoder 的部分，則是通過 Encoder 的向量輸出，通過 LSTM 之後，
 
 （注：以 1 層 LSTM Decoder，Output 4 位數爲例）
 
-<img src='thumbs/model.png' height=500 align=left>
+![]('thumbs/model.png')
 
 
 
