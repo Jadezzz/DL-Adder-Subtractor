@@ -39,10 +39,9 @@ Encoder 的部分，可以看成先將待求的算式理解並且歸納成爲一
 
 Decoder 的部分，則是通過 Encoder 的向量輸出，通過 LSTM 之後，輸出128 維度向量，經過 12 個 neurons 後再通過 soft-max 預測該位置的數字
 
+![](thumbs/model.png)
+
 （注：以 1 層 LSTM Decoder，Output 4 位數爲例）
-
-![]('thumbs/model.png')
-
 
 
 
