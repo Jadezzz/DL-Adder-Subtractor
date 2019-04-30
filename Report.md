@@ -361,7 +361,9 @@ Training Data 中刻意設計一半爲加法，一半爲減法
 
 結果：
 
+<div>
 <img src='thumbs/mul.png' align=left>
+</div>
 
 Training Accuracy 在 0.7 左右就無法再向上了，說明 Model 沒辦法很好的學習資料集中的形式 
 
