@@ -347,3 +347,12 @@ Training Data 中刻意設計一半爲加法，一半爲減法
 3. 盲目的訓練過多的 Epoch 會造成 Over Fitting
 4. 增加 Encoder 的 Hidden Size 可以提高復雜模型的準確率
 
+### How about multiplication ?
+
+可以看到我們的 Model 在做五位數的加法時，Model 已經很難 Fit 了
+
+主要是因為結果需要 Predict 的位數 range 太大，模型很難 fit
+
+對於乘法來說，3 * 3 的乘法很容易就到 6 位數，Model 是很難去學習的
+
+如果使用同樣的方法去訓練乘法的模型無法收斂
