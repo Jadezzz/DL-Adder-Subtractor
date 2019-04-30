@@ -365,6 +365,8 @@ Training Data 中刻意設計一半爲加法，一半爲減法
 <img src='thumbs/mul.png' align=left>
 </div>
 
+<p></p>
+
 Training Accuracy 在 0.7 左右就無法再向上了，說明 Model 沒辦法很好的學習資料集中的形式 
 
 觀察測試結果，發現開頭 1,2 個數字和結尾的 1,2 個數字 Model 都預測的比較準確，中間的數字 Model 沒辦法準確的預測
