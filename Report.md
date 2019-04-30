@@ -349,10 +349,22 @@ Training Data 中刻意設計一半爲加法，一半爲減法
 
 ### How about multiplication ?
 
-可以看到我們的 Model 在做五位數的加法時，Model 已經很難 Fit 了
+試着使用相同方法對乘法進行訓練
 
-主要是因為結果需要 Predict 的位數 range 太大，模型很難 fit
+參數：
 
-對於乘法來說，3 * 3 的乘法很容易就到 6 位數，Model 是很難去學習的
+* Epoch: 100
+* 訓練集大小：80000
+* Digits: 3
+* Encoder Hidden Size: 128
+* Decoder: 2 層
 
-如果使用同樣的方法去訓練乘法的模型無法收斂
+結果：
+
+<img src='thumbs/mul.png' align=left>
+
+Training Accuracy 在 0.7 左右就無法再向上了，說明 Model 沒辦法很好的學習資料集中的形式 
+
+觀察測試結果，發現開頭 1,2 個數字和結尾的 1,2 個數字 Model 都預測的比較準確，中間的數字 Model 沒辦法準確的預測
+
+猜想乘法的表示方法比較復雜，相同的 Model 比較無法學習乘法其中的規則 
